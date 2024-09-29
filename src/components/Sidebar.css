@@ -1,0 +1,45 @@
+/* Customize the offcanvas sidebar */
+.custom-sidebar {
+    border-radius: 10px;  /* Adjust the sidebar's border radius */
+    background-color: #c29678; /* Light background color */
+    border: 2px solid #5c5231; /* Subtle border */
+    width: 300px; /* Adjust width if necessary */
+  }
+  
+  /* Custom button styling */
+  .custom-btn {
+    background-color: #007bff; /* Button background color */
+    border: none;
+    color: rgb(86, 46, 46);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Button border radius */
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-btn i {
+    margin-right: 8px;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3; /* Darker hover effect */
+  }
+  
+  /* Logout button container to adjust positioning */
+  .logout-container {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+  }
+  
+  .logout-btn {
+    border-radius: 12px;
+    padding: 8px 16px;
+    background-color: #dc3545; /* Red for logout */
+  }
+  
+  .logout-btn:hover {
+    background-color: #c82333;
+  }
+  
